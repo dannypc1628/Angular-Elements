@@ -10,7 +10,7 @@ export class AppComponent {
 
   constructor() {
     setTimeout(() => {
-      this.content = '<p>這是一個警報訊息</p>';
+      this.content = "<app-alert message='這是一個警報範例'></app-alert>";
     }, 1000);
   }
 }
